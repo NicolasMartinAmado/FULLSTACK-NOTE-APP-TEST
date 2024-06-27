@@ -1,5 +1,5 @@
-const noteRepository = require('../repositories/note.respository');
-const tagRepository = require('../repositories/tag.repository');
+const noteRepository = require("../repositories/note.respository");
+const tagRepository = require("../repositories/tag.repository");
 
 class NoteService {
   async getAllNotes() {

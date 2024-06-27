@@ -11,7 +11,6 @@ const eq = handlebarsHelpers.eq;
 const noteRoutes = require("./routes/notes.router.js");
 const authRoutes = require(`./routes/auth.router.js`);
 
-
 const app = express();
 const port = 5000;
 
