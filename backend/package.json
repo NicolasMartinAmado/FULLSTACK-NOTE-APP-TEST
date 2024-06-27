@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon src/server.js --mode production",
+    "start": "node src/server.js",
     "run" : "node src/server.js"
   },
   "dependencies": {
