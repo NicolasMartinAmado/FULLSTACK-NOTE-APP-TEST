@@ -7,9 +7,9 @@ const { logger } = require("./utils/logger");
 const cors = require("cors");
 const handlebars = require(`express-handlebars`);
 const handlebarsHelpers = require("handlebars-helpers")();
-const eq = handlebarsHelpers.eq;
 const noteRoutes = require("./routes/notes.router.js");
 const authRoutes = require(`./routes/auth.router.js`);
+const eq = handlebarsHelpers.eq;
 
 const app = express();
 const port = 5000;
