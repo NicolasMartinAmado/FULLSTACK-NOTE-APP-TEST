@@ -1,0 +1,20 @@
+#notelist{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-weight: 900;
+    padding: 150px;
+    gap: 20px;
+    padding-bottom: 80px;
+
+    & form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
