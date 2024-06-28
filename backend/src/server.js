@@ -21,7 +21,7 @@ connectDB();
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "http://localhost:3000", // Allow frontend URL
+  origin: process.env.FRONTEND_URL || "https://frontnote-app-test.onrender.com",
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
